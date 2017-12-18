@@ -1,0 +1,25 @@
+@import "fonts";
+@import "bootstrap";
+@import "sidebar";
+
+body {
+	padding-left: 200px;
+}
+
+.navbar {
+	box-shadow: 0 1px 0 0 rgba(229, 229, 229, 0.5);
+	padding: 0;
+}
+
+.navbar img {
+	margin: 22px auto;
+
+}
+
+.content img {
+	margin: 20px 30px 0 45px;
+}
+
+.content p {
+	color: $gray-900;
+}

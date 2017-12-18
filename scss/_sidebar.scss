@@ -1,0 +1,14 @@
+.sidebar {
+	background-color: $gray-800;
+	height: 100%;
+	width: 200px;
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+
+.thumbnail img {
+	border-radius: 50%;
+	height: 48px;
+	width: 48px;
+}
