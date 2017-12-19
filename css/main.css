@@ -2172,7 +2172,7 @@ input[type="button"].btn-block {
 
 .nav-link {
   display: block;
-  padding: 0.5rem 30px; }
+  padding: 0.875rem 30px; }
   .nav-link:focus, .nav-link:hover {
     text-decoration: none; }
   .nav-link.disabled {
@@ -2239,8 +2239,8 @@ input[type="button"].btn-block {
 
 .navbar-brand {
   display: inline-block;
-  padding-top: 0.3125rem;
-  padding-bottom: 0.3125rem;
+  padding-top: 0.6875rem;
+  padding-bottom: 0.6875rem;
   margin-right: 1rem;
   font-size: 1.25rem;
   line-height: inherit;
@@ -2263,8 +2263,8 @@ input[type="button"].btn-block {
 
 .navbar-text {
   display: inline-block;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem; }
+  padding-top: 0.875rem;
+  padding-bottom: 0.875rem; }
 
 .navbar-collapse {
   flex-basis: 100%;
@@ -4789,6 +4789,15 @@ a.text-dark:focus, a.text-dark:hover {
   position: fixed;
   left: 0;
   top: 0; }
+  .sidebar .nav li i {
+    font-size: 20px; }
+  .sidebar .nav-link {
+    color: #9ea7b3; }
+    .sidebar .nav-link:hover, .sidebar .nav-link:focus {
+      background-color: #243342;
+      color: #fff; }
+      .sidebar .nav-link:hover i, .sidebar .nav-link:focus i {
+        color: #2ecc71; }
 
 .thumbnail img {
   border-radius: 50%;
