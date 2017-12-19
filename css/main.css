@@ -2371,6 +2371,13 @@ input[type="button"].btn-block {
     .navbar-dark .navbar-text a:focus, .navbar-dark .navbar-text a:hover {
       color: #fff; }
 
+.media {
+  display: flex;
+  align-items: flex-start; }
+
+.media-body {
+  flex: 1; }
+
 .align-baseline {
   vertical-align: baseline !important; }
 
