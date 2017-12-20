@@ -68,7 +68,7 @@
   --info: #17a2b8;
   --warning: #ffc107;
   --danger: #e74c3c;
-  --light: #ecf0f1;
+  --light: #fff;
   --dark: #34495e;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
@@ -1718,22 +1718,22 @@ fieldset[disabled] a.btn {
 
 .btn-light {
   color: #111;
-  background-color: #ecf0f1;
-  border-color: #ecf0f1; }
+  background-color: #fff;
+  border-color: #fff; }
   .btn-light:hover {
     color: #111;
-    background-color: #d6dfe1;
-    border-color: #cfd9db; }
+    background-color: #ececec;
+    border-color: #e6e6e6; }
   .btn-light:focus, .btn-light.focus {
-    box-shadow: 0 0 0 0.2rem rgba(236, 240, 241, 0.5); }
+    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5); }
   .btn-light.disabled, .btn-light:disabled {
-    background-color: #ecf0f1;
-    border-color: #ecf0f1; }
+    background-color: #fff;
+    border-color: #fff; }
   .btn-light:not([disabled]):not(.disabled):active, .btn-light:not([disabled]):not(.disabled).active, .show > .btn-light.dropdown-toggle {
     color: #111;
-    background-color: #cfd9db;
-    border-color: #c7d3d6;
-    box-shadow: 0 0 0 0.2rem rgba(236, 240, 241, 0.5); }
+    background-color: #e6e6e6;
+    border-color: #dfdfdf;
+    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5); }
 
 .btn-dark {
   color: #fff;
@@ -1875,24 +1875,24 @@ fieldset[disabled] a.btn {
     box-shadow: 0 0 0 0.2rem rgba(231, 76, 60, 0.5); }
 
 .btn-outline-light {
-  color: #ecf0f1;
+  color: #fff;
   background-color: transparent;
   background-image: none;
-  border-color: #ecf0f1; }
+  border-color: #fff; }
   .btn-outline-light:hover {
     color: #243342;
-    background-color: #ecf0f1;
-    border-color: #ecf0f1; }
+    background-color: #fff;
+    border-color: #fff; }
   .btn-outline-light:focus, .btn-outline-light.focus {
-    box-shadow: 0 0 0 0.2rem rgba(236, 240, 241, 0.5); }
+    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5); }
   .btn-outline-light.disabled, .btn-outline-light:disabled {
-    color: #ecf0f1;
+    color: #fff;
     background-color: transparent; }
   .btn-outline-light:not([disabled]):not(.disabled):active, .btn-outline-light:not([disabled]):not(.disabled).active, .show > .btn-outline-light.dropdown-toggle {
     color: #243342;
-    background-color: #ecf0f1;
-    border-color: #ecf0f1;
-    box-shadow: 0 0 0 0.2rem rgba(236, 240, 241, 0.5); }
+    background-color: #fff;
+    border-color: #fff;
+    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5); }
 
 .btn-outline-dark {
   color: #34495e;
@@ -2512,10 +2512,10 @@ a.bg-danger:focus, a.bg-danger:hover {
   background-color: #d62c1a !important; }
 
 .bg-light {
-  background-color: #ecf0f1 !important; }
+  background-color: #fff !important; }
 
 a.bg-light:focus, a.bg-light:hover {
-  background-color: #cfd9db !important; }
+  background-color: #e6e6e6 !important; }
 
 .bg-dark {
   background-color: #34495e !important; }
@@ -2566,7 +2566,7 @@ a.bg-dark:focus, a.bg-dark:hover {
   border-color: #e74c3c !important; }
 
 .border-light {
-  border-color: #ecf0f1 !important; }
+  border-color: #fff !important; }
 
 .border-dark {
   border-color: #34495e !important; }
@@ -4712,10 +4712,10 @@ a.text-danger:focus, a.text-danger:hover {
   color: #d62c1a !important; }
 
 .text-light {
-  color: #ecf0f1 !important; }
+  color: #fff !important; }
 
 a.text-light:focus, a.text-light:hover {
-  color: #cfd9db !important; }
+  color: #e6e6e6 !important; }
 
 .text-dark {
   color: #34495e !important; }
@@ -4738,6 +4738,26 @@ a.text-dark:focus, a.text-dark:hover {
 
 .invisible {
   visibility: hidden !important; }
+
+.btn-circle {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  padding: 0;
+  text-align: center;
+  line-height: 30px; }
+  .btn-circle.btn-lg {
+    font-size: 18px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px; }
+
+.btn-light {
+  color: #95a5a6; }
+
+.btn-lg i {
+  position: relative;
+  left: 1px; }
 
 .form-control:focus {
   box-shadow: none; }
@@ -4773,13 +4793,5 @@ body {
 
 .navbar img {
   margin: 22px auto; }
-
-.navbar i {
-  font-size: 20px; }
-
-.col-5 button {
-  height: 40px;
-  width: 40px;
-  border-radius: 20px; }
 
 /*# sourceMappingURL=main.css.map */
