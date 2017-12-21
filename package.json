@@ -1,0 +1,26 @@
+{
+  "name": "bootstrap-project",
+  "version": "1.0.0",
+  "description": "Portfolio Practice Project",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jatinsayan/education-dashboard.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jatinsayan/education-dashboard/issues"
+  },
+  "homepage": "https://github.com/jatinsayan/education-dashboard#readme"
+}
