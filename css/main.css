@@ -2593,7 +2593,7 @@ input[type="button"].btn-block {
 .list-group-item {
   position: relative;
   display: block;
-  padding: 0.75rem 1.25rem;
+  padding: 20px 25px;
   margin-bottom: -1px;
   background-color: #fff;
   border: 1px solid rgba(44, 62, 80, 0.125); }
@@ -5184,26 +5184,31 @@ a.text-dark:focus, a.text-dark:hover {
     .card-header-tabs .nav-item {
       flex: 1; }
     .card-header-tabs .nav-link {
+      color: #95a5a6;
       text-align: center;
       font-size: 12px;
+      letter-spacing: 0.4px;
       text-transform: uppercase;
       border-bottom: 1px solid #dee1e2;
       background-color: #ecf0f1;
       position: relative;
       z-index: 1; }
       .card-header-tabs .nav-link:hover, .card-header-tabs .nav-link:focus {
+        color: #7f8c8d;
         border-bottom: 1px solid #dee1e2; }
       .card-header-tabs .nav-link.active {
         border: 1px solid #dee1e2;
         border-bottom: none; }
     .card-header-tabs h1 {
       font-size: 34px; }
-  .card-orange .card-header-tabs .nav .nav-link.active {
+  .card-orange .card-header-tabs .nav-link.active {
     color: #e67333; }
-  .card-purple .card-header-tabs .nav .nav-link.active {
+  .card-purple .card-header-tabs .nav-link.active {
     color: #8e44ad; }
-  .card-teal .card-header-tabs .nav .nav-link.active {
+  .card-teal .card-header-tabs .nav-link.active {
     color: #1abc9c; }
+  .card .list-group {
+    color: #7f8c8d; }
 
 body {
   padding-left: 200px; }
@@ -5221,6 +5226,10 @@ body {
 .tab-body {
   min-height: calc(100vh - 88px - 140px - 52px);
   background-color: #ecf0f1;
-  padding: 35px 45px; }
+  padding: 35px 35px; }
+  .tab-body .card-header a {
+    padding: 15px 0; }
+  .tab-body .card-body {
+    padding: 5px 20px; }
 
 /*# sourceMappingURL=main.css.map */

@@ -27,5 +27,13 @@ body {
 .tab-body {
 	min-height: calc(100vh - 88px - 140px - 52px);
 	background-color: $gray-100;
-	padding: 35px 45px;
+	padding: 35px 35px;
+
+	.card-header a {
+		padding: 15px 0;
+	}
+
+	.card-body {
+		padding: 5px 20px;
+	}
 }

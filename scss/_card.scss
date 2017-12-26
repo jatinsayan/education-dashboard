@@ -8,8 +8,10 @@
 				flex: 1;
 			}
 			&-link {
+				color: $gray-500;
 				text-align: center;
 				font-size: $h5-font-size;
+				letter-spacing: 0.4px;
 				text-transform: uppercase;
 				border-bottom: 1px solid $gray-300;
 				background-color: $gray-100;
@@ -17,6 +19,7 @@
 				z-index: 1;
 				&:hover,
 				&:focus {
+					color: $gray-700;
 					border-bottom: 1px solid $gray-300;
 				}
 				&.active {
@@ -30,18 +33,22 @@
 		}
 	}
 	&-orange {
-		.card-header-tabs .nav .nav-link.active {
+		.card-header-tabs .nav-link.active {
 				color: $orange;
 		}
 	}
 	&-purple {
-		.card-header-tabs .nav .nav-link.active {
+		.card-header-tabs .nav-link.active {
 				color: $purple;
 		}
 	}
 	&-teal {
-		.card-header-tabs .nav .nav-link.active {
+		.card-header-tabs .nav-link.active {
 				color: $teal;
 		}
+	}
+
+	.list-group {
+		color: $gray-700;
 	}
 }
