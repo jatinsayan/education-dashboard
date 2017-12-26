@@ -1,0 +1,13 @@
+.nav-tabs {
+	box-shadow: 0 1px 0 0 rgba(229, 229, 229, 0.5);
+	.nav-link {
+		padding: 7px 0;
+		border: none;
+		letter-spacing: 1.6px;
+		&:hover,
+		&:focus,
+		&.active {
+			border-bottom: 3px solid $primary;
+		}
+	}
+}

@@ -1,0 +1,47 @@
+.card {
+	border-radius: $card-border-radius;
+	&-header-tabs {
+		margin: -1px;
+
+		.nav {
+			&-item {
+				flex: 1;
+			}
+			&-link {
+				text-align: center;
+				font-size: $h5-font-size;
+				text-transform: uppercase;
+				border-bottom: 1px solid $gray-300;
+				background-color: $gray-100;
+				position: relative;
+				z-index: 1;
+				&:hover,
+				&:focus {
+					border-bottom: 1px solid $gray-300;
+				}
+				&.active {
+					border: 1px solid $gray-300;
+					border-bottom: none;
+				}
+			}
+		}
+		h1 {
+			font-size: 34px;
+		}
+	}
+	&-orange {
+		.card-header-tabs .nav .nav-link.active {
+				color: $orange;
+		}
+	}
+	&-purple {
+		.card-header-tabs .nav .nav-link.active {
+				color: $purple;
+		}
+	}
+	&-teal {
+		.card-header-tabs .nav .nav-link.active {
+				color: $teal;
+		}
+	}
+}
