@@ -1,5 +1,12 @@
 .card {
 	border-radius: $card-border-radius;
+	&-header {
+		color: $gray-500;
+		padding: 15px;
+		background-color: $white;
+		border-bottom: 0;
+		letter-spacing: 1px;
+	}
 	&-header-tabs {
 		margin: -1px;
 
