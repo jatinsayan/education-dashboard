@@ -1,8 +1,28 @@
 .card-group {
-	padding: 0 35px 80px;
-	background-color: $gray-100;
-
 	.card .list-group .list-group-item a {
 		padding: 15px 25px;
+	}
+
+	.card-body {
+		padding: 5px 20px;
+	}
+
+	.time {
+		color: $gray-400;
+	}
+
+	h2 {
+		color: $gray-700;
+		margin-top: 5px;
+	}
+
+	.exp_value {
+		font-size: 34px;
+		margin-bottom: 0;
+		line-height: 43px;
+	}
+
+	p {
+		margin-bottom: 0;
 	}
 }

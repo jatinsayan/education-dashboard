@@ -5162,6 +5162,15 @@ a.text-dark:focus, a.text-dark:hover {
     width: 40px;
     line-height: 40px; }
 
+.flex-grow {
+  flex-grow: 1 !important; }
+
+.flex-1 {
+  flex: 1 !important; }
+
+.bg-muted {
+  background-color: #d8d8d8 !important; }
+
 .btn-light {
   color: #95a5a6; }
 
@@ -5204,7 +5213,7 @@ a.text-dark:focus, a.text-dark:hover {
       border-bottom: 3px solid #2ecc71; }
 
 .card {
-  border-radius: 3px; }
+  border-radius: 0; }
   .card-header {
     color: #95a5a6;
     padding: 15px;
@@ -5273,11 +5282,24 @@ a.text-dark:focus, a.text-dark:hover {
   justify-content: flex-end;
   background-color: transparent; }
 
-.card-group {
-  padding: 0 35px 80px;
-  background-color: #ecf0f1; }
-  .card-group .card .list-group .list-group-item a {
-    padding: 15px 25px; }
+.progress-experience {
+  width: 44px; }
+
+.card-group .card .list-group .list-group-item a {
+  padding: 15px 25px; }
+.card-group .card-body {
+  padding: 5px 20px; }
+.card-group .time {
+  color: #bdc3c7; }
+.card-group h2 {
+  color: #7f8c8d;
+  margin-top: 5px; }
+.card-group .exp_value {
+  font-size: 34px;
+  margin-bottom: 0;
+  line-height: 43px; }
+.card-group p {
+  margin-bottom: 0; }
 
 body {
   padding-left: 200px; }
